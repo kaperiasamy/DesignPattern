@@ -1,4 +1,4 @@
-![From My Experience: useEffect vs useLayoutEffect in React](https://levelup.gitconnected.com/from-my-experience-useeffect-vs-uselayouteffect-in-react-582e9f90a6cf)
+[From My Experience: useEffect vs useLayoutEffect in React](https://levelup.gitconnected.com/from-my-experience-useeffect-vs-uselayouteffect-in-react-582e9f90a6cf)
 # From My Experience: useEffect vs useLayoutEffect in React
 
 ## Introduction 🌟
