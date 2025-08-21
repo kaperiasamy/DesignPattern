@@ -123,5 +123,17 @@ In general, multiplying ( O(x) ) by any term ( y ) results in ( O(y \times x) ).
 
 For example, if you have ( n \times O(n) ), it simplifies to ( O(n^2) ). This approach helps in evaluating the time complexity of functions by combining the terms appropriately.
 
+**To quickly find the Big O notation for a piece of code**, follow these steps:
 
+- **Examine Each Line**: Look at each line of code to determine its time complexity.
+- **Identify Constant Time Operations**: Operations that take a constant amount of time (e.g., initializing a variable) are ( O(1) ).
+- **Evaluate Loops**: For loops, multiply the complexity of the inner operations by the number of iterations. For example, a loop running ( n ) times with an ( O(1) ) operation inside is ( O(n) ).
+- **Combine Complexities**: Sum the complexities of all lines. The overall complexity is dominated by the fastest-growing term.
+
+By following these steps, you can efficiently determine the Big O notation for your code.
+
+### Practical example of time complexity and big O
+- **Rooks on a Chessboard Problem**: The video uses a problem of determining if any rooks on a chessboard can attack each other to illustrate time complexity.
+- **Time Complexity Calculation**: The solution involves counting the number of rooks in each row and column, leading to a time complexity of ( O(n^2) ) for the worst-case scenario.
+- **Worst-Case Scenario**: Time complexity is typically evaluated based on the worst-case scenario, where no row or column has more than one rook, resulting in ( O(n^2) ) complexity.
 
