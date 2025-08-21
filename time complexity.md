@@ -80,6 +80,19 @@ Understanding these pros and cons can help you better evaluate and choose algori
 
 Big O notation provides a standardized way to compare the efficiency of different algorithms.
 
+--- 
+Big O notation is a way to describe the time complexity of an algorithm, indicating how the runtime of a function grows as the size of the input increases. It helps in understanding the efficiency of an algorithm by focusing on the fastest-growing term and ignoring constants.
+
+For example:
+
+O(1): Constant time complexity, where the runtime does not change with the input size.
+O(n): Linear time complexity, where the runtime grows linearly with the input size.
+O(n^2): Quadratic time complexity, where the runtime grows quadratically with the input size.
+
+Big O notation is essential for comparing the efficiency of different algorithms, especially in coding interviews and performance optimization.
+
+---
+
 To determine the time complexity of a function, follow these steps:
 
 - **Identify the Basic Operations**: Look at the function and identify the basic operations (e.g., loops, recursive calls) that contribute to the runtime.
@@ -94,4 +107,21 @@ In the video "Overview of big O notation," it is explained that you should:
 - Express the time complexity using Big O notation.
 
 By following these steps, you can determine the time complexity of a function and express it in Big O notation.
+
+**Evaluating time complexity using big O**:
+
+- **Multiplication in Big O Notation**: Multiplying a Big O expression by a constant or another variable involves placing it inside the Big O expression. For example, ( n \times O(x) = O(nx) ).
+- **Evaluating Time Complexity**: To determine the time complexity of a function, examine each line of the code, identify the fastest-growing term, and combine these terms to find the overall complexity.
+- **Example Analysis**: The video breaks down a function that sums elements in a two-dimensional array, demonstrating that its time complexity is ( O(n^2) ) by evaluating each operation and summing the complexities.
+
+These points help in understanding how to analyze the efficiency of algorithms using Big O notation.
+
+To multiply Big O notation, you place the multiplier inside the Big O expression. Here are the steps:
+
+If you multiply ( O(n) ) by ( n ), it becomes ( O(n \times n) = O(n^2) ).
+In general, multiplying ( O(x) ) by any term ( y ) results in ( O(y \times x) ).
+
+For example, if you have ( n \times O(n) ), it simplifies to ( O(n^2) ). This approach helps in evaluating the time complexity of functions by combining the terms appropriately.
+
+
 
