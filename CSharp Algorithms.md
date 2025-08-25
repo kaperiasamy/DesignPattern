@@ -893,3 +893,10 @@ Want help writing a utility method that safely iterates over full Unicode charac
 
 
 If you’re curious, I can show you how to decode or validate surrogate pairs in a string. Want to go deeper?
+
+
+I want to create a ASP.NET Core Web Application along with Web API with the following features:
+It should use Entity Framework Core. It should implemented the non-functional requirements. Include how to secure the API. Also implement rate limiting features. Detailed dependency injection options should be there. Implement the middlewares for error handling and logging. Implement authentication and authorization. Also include the features like how to avoid SQL Injection and XSRF attacts. Enable encryption using TLS. 
+Here is the application detail: The application has a user login page. Once the user logged in, the in time is recorded. Once the user logs out, the out time is recorded. The in and out time should not overlop. 
+Provide me the complete code with comments so that I can understand and explain to the interviewer. 
+
